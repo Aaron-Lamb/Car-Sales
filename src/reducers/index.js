@@ -14,3 +14,10 @@ export const initialState = {
       { id: 4, name: 'Rear spoiler', price: 250 }
     ]
   };
+
+  export const reducer = (state = initialState, action) => {
+      switch (action.type) {
+        default:
+            return state;
+      }
+  }
