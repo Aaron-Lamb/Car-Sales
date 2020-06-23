@@ -16,10 +16,11 @@ const AdditionalFeature = props => {
 };
 
 const mapStateToProps = state => {
-  return{
-    features: state.reducer.features
+  return {
+    features: state.car.features
+    }
   }
-}
+
 
 const mapDispatchToProps = { addFeature };
 
