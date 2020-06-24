@@ -1,5 +1,7 @@
-export const ADD_FEATURE = "ADD_FEATURE";
-
 export const addFeature = newFeature => {
-    return { type: ADD_FEATURE, payload: newFeature };
+    return { type: "ADD_FEATURE", payload: newFeature };
+}
+
+export const removeFeature = item => {
+    return { type: "REMOVE_FEATURE", payload: item}
 }
